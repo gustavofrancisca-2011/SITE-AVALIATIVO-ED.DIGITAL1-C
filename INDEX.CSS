@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voz da Floresta | Consciência e Ação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header role="banner">
+        <nav class="navbar" aria-label="Navegação Principal">
+            <div class="logo">Voz da <span>Floresta</span></div>
+            <div class="a11y-controls">
+                <button id="btn-contrast" title="Alternar Alto Contraste" aria-label="Modo de alto contraste">🌓</button>
+                <button id="btn-font-increase" title="Aumentar Fonte" aria-label="Aumentar tamanho da fonte">A+</button>
+                <button id="btn-font-decrease" title="Diminuir Fonte" aria-label="Diminuir tamanho da fonte">A-</button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container">
+                <h1 id="hero-title">O silêncio das florestas é o nosso maior aviso.</h1>
+                <p>Entenda o impacto do desmatamento e como podemos regenerar o pulmão do mundo.</p>
+                <a href="#stats" class="btn-cta">Agir Agora</a>
+            </div>
+        </section>
+
+        <section id="stats" class="section-reveal" aria-labelledby="stats-title">
+            <div class="container">
+                <h2 id="stats-title">Impactos em Números</h2>
+                <div id="stats-grid" class="grid-layout" role="list">
+                    </div>
+            </div>
+        </section>
+
+        <section id="learn" class="section-reveal" aria-labelledby="learn-title">
+            <div class="container">
+                <h2 id="learn-title">Principais Causas e Consequências</h2>
+                <div id="accordion-container" class="accordion">
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="container">
+            <p>&copy; 2024 Voz da Floresta - Projeto Educativo sobre Preservação Ambiental.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
